@@ -128,7 +128,7 @@ Based on the KnowMixer Use Case Diagram, there are both Functional and Non-Funct
 Due to nature of how the Firebase Firestore functions, the process of desigining, creating, and maintaining a database has been abstracted away. Now, only the data that is to be presented to the user must be established and maintained through collection and document objects available in the Firestore. This was covered in a [previous section](#firebase).
 
 ## UI Design
-One of the main aspects for choosing to use Flutter as the opposed to other [tools](#technology-choice) is that Flutter enables a fast turn out rate in the creation of applications with beatiful UIs and a versatile collection of widgets which enable the developer to create varied and innovative products.
+One of the main aspects for choosing to use Flutter as opposed to other [tools](#technology-choice) is that Flutter enables a fast turn out rate in the creation of applications with beatiful UIs and a versatile collection of widgets which enable the developer to create varied and innovative products.
 
 To demonstrate the versatility of Flutter in the creation of applications, it is possible to create an application similar to the one demonstrated in *Figure 1* utilizing Python's Tkinter GUI package, but it wouldn't look as presentable as Flutter's inherent material design for applications.
 
