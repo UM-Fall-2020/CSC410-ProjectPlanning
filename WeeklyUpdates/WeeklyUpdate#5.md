@@ -1,0 +1,4 @@
+<p style= float:left>Christopher Duarte </p> <p style= float:right> 10/01/2020 </p> <br>
+<h3 align = center> Weekly Update #5</h3>
+
+This week consisted of having the first meeting with supervising professor, Dr. Ubbo Visser, and starting the next phase of the project which is having a working prototype and ensuing presentation for end of semester. Based on meeting, all requirements for the design document are complete and professor recommended to minimize scope of project to initially work with only offline use. Afterwards, expansion into utilizing Firebase can be implemented but only if time permits. It is better to focus on the offline application and make sure it works before making larger expansions into the infrastructure of implementing online use. Due to these suggestions, the goal of the prototype is to have a functioning application that works with dummy data, but the online portion will be implemented if time permits. 
