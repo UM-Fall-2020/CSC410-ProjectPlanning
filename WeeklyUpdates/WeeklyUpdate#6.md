@@ -1,0 +1,4 @@
+<p style= float:left>Christopher Duarte </p> <p style= float:right> 10/08/2020 </p> <br>
+<h3 align = center> Weekly Update #6</h3>
+
+This week consisted of working on the project presentation and starting on the project prototype. The project presentation is almost complete and is based on the concepts presented in the KnowMixer design document. Several concepts covered include the solution approach, analysis approach, and a brief description of each main KnowMixer requirement, among additional topics. KnowMixer prototype project set up utilizing Android Studio, git integration will be established in the coming week as new features are added in. 
