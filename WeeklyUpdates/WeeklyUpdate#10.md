@@ -1,0 +1,4 @@
+<p style= float:left>Christopher Duarte </p> <p style= float:right> 11/06/2020 </p> <br>
+<h3 align = center> Weekly Update #10</h3>
+
+This week consisted of working on the application, and making sure required deliverables were complete for final project presentation. Project Update Meeting with supervising professor will be conducted next week on Friday, Nov. 13th and final deliverables will be based on requirements and suggestions made in the meeting. Final Project presentation is expected to be on Nov. 20th. After final presentation, the deliverables will be adjusted and submitted accordingly.  
