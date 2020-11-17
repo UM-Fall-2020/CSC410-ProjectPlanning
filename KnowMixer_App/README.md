@@ -1,10 +1,10 @@
-# KnowMixer_App
+# KnowMixer App
 
-A new Flutter project.
+Encyclopedia Application Prototype which demonstrates category and definition pages.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+For help with running Flutter, please refer to the following resources.
 
 A few resources to get you started if this is your first Flutter project:
 
