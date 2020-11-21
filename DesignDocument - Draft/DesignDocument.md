@@ -55,7 +55,6 @@ An example widget tree for a shopping cart application is as follows:
 
 <p align='center'><i>Figure 2</i></p>
 
-
 - MyApp - root widget. All Flutter Applications start at this point in the Widget Tree.
 - MyLoginScreen - initial screen for the application.
 - MyCatalog - list of products with an app bar to allow user to access cart.
@@ -90,7 +89,9 @@ The encyclopedia data will obtained from [Encyclopedia Britannica](https://www.b
 Due to a lack of communication with the Firebase Datastore, certain aspects of the KnowMixer application will be missing/inaccessible. For example, being able to add prexisting categories and retrieving the available terms in those categories, if they were not previously downloaded. But once the collection and its ensuing documents are downloaded, the terms and data will be available locally for the user at any time. By downloading an entire collection of terms, KnowMixer becomes "heavier" by saving more data locally but will become more permanent than just saving it to cache. KnowMixer will save this data locally upon download by fetching the data from the Firestore and storing it locally with Flutter data types/objects. In this manner, the user will have access to their desired information at a moments notice from anywhere at anytime. 
 
 ## Use Cases Design 
+
 ### KnowMixer Use Case Diagram
+
 <p align="center">
     <img src = "Assets/KnowMixer_Use_Case4.png" alt="KnowMixer Use Case" width = 600 >
 </p>
@@ -100,7 +101,9 @@ Due to a lack of communication with the Firebase Datastore, certain aspects of t
 Based on the KnowMixer Use Case Diagram, there are both Functional and Non-Functional Requirements that must be addressed in regards to the application.
 
 \**Note*: Main points are the functional requirements and sub-points are the non-functional requirements. 
+
 ### KnowMixer Requirements
+
 1. **Account Setup**: Once a user sets up an account locally, data must be relayed to Firebase Authentication to allow the user to subsequently access additional KnowMixer features.
     - *Account Authentication Update*: Firebase should verify and create accounts in a timely manner with the appropriate account credential data. If the process is interrupted or credentials don't match, user should be notified that the action they were trying to perform could not be completed. 
 2. **Category Selection**: Upon making an initial account, user must be prompted to select the encyclopedia categories from which they'd like to see. This will then be visible in the Category View. 
@@ -125,14 +128,17 @@ Based on the KnowMixer Use Case Diagram, there are both Functional and Non-Funct
 12. **Data Permanence**: As part of data retrieval and visualization process for KnowMixer, there must be a way of saving the retrieved data locally for the user to access on their own accord offline. 
 
 ## Database Design
+
 Due to nature of how the Firebase Firestore functions, the process of desigining, creating, and maintaining a database has been abstracted away. Now, only the data that is to be presented to the user must be established and maintained through collection and document objects available in the Firestore. This was covered in a [previous section](#firebase).
 
 ## UI Design
+
 One of the main aspects for choosing to use Flutter as opposed to other [tools](#technology-choice) is that Flutter enables a fast turn out rate in the creation of applications with beautiful UIs and a versatile collection of widgets which enable the developer to create varied and innovative products.
 
 To demonstrate the versatility of Flutter in the creation of applications, it is possible to create an application similar to the one demonstrated in *Figure 1* utilizing Python's Tkinter GUI package, but it wouldn't look as presentable as Flutter's inherent material design for applications.
 
 Examples of applications that utilize Flutter are as follows:
+
 - Alibaba (eCommerce)
 <p align="center">
     <img src = "Assets/Alibaba_Sample.png" alt="KnowMixer Use Case" width = 500 >
@@ -140,14 +146,12 @@ Examples of applications that utilize Flutter are as follows:
 
 <p align='center'><i>Figure 4</i></p>
 
-
 - Reflectly (Lifestyle)
 <p align="center">
     <img src = "Assets/Refectly_Sample.png" alt="Reflectly Sample" width = 500 >
 </p>
 
 <p align='center'><i>Figure 5</i></p>
-
 
 - Hamilton Musical (Entertainment)
 <p align="center">
@@ -160,10 +164,13 @@ Examples of applications that utilize Flutter are as follows:
 Thus, instead of using Flutter to create a generic encyclopedia application that has been made in the past, it enables the developer to construct a memorable app that is unique and beautiful, similar to the samples provided above. This in combination with Firebase allows for an app that enables the user to search for desired terms and information at a moment's notice through offline functionality. 
 
 This is not to say that the final application **can't** look like that in *Figure 1*, but **instead** it will naturally look better due to Flutter's material design. 
+
 ## Prototype
+
 It is expected that a prototype of the KnowMixer application will be presented with final submission of this design document. The prototype will have basic functionality which includes having the basic workflow of the application working locally with Flutter and having the Firebase Authentication and Firestore features working with dummy data and accounts. In this manner, it is possible to see if KnowMixer can handle real-world use as both an offline and online encyclopedia app. 
 
 ## Technology Choice
+
 At this point, it has been [explained](#analysis-approach) why Flutter and Firebase work well with the [purpose](#solution-approach-high-level) the KnowMixer app seeks to accomplish.
 
 But what are other alternatives that serve as both a frontend and backend to modern applications that could have been used for the KnowMixer application?
@@ -181,6 +188,7 @@ Example Alternatives to Firebase:
 - Firehose
 
 Besides both being Google products which ensures reliability and minimal cross compatibility issues, I've previously worked on an application involving Flutter and Firebase. Thus, there exists a preference towards these two versus the other viable alternatives listed for both frontend and backend design.  
+
 ## Conclusion
 The main objective that the KnowMixer app hopes to accomplish is to provide readily accessible data in the hands of the user at all time. To this end, KnowMixer should function in both an offline and online fashion to accomodate this goal. The front end implementation will be constructed using the UI toolkit Flutter and the backend infrastructure will be handled by Firebase. Both product are being actively maintained by Google, meaning there should not be an issue in "future proofing" the KnowMixer app.
 
