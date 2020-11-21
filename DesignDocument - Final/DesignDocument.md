@@ -198,7 +198,37 @@ This is not to say that the final application **can't** look like that in *Figur
 
 ## Prototype
 
-Currently, a prototype demonstrating Knowmixer's Category and Term functionality has been developed. As a placeholder for Firebase integration, a dummy text file holding the category and terms with definitions is being used. The application starts from the Category Screen from which pre-defined categories are available. Upon choosing a category, the term screen of the category is shown and a term can be selected from which a description of the term will be shown. Navigating from one category and/or term to another is available and terms from different categories can be marked as favorites to be viewed in the favorites screen. 
+Currently, a prototype demonstrating Knowmixer's Category and Term functionality has been developed. As a placeholder for Firebase integration, a dummy text file holding the category and terms with definitions is being used. 
+
+The application starts from the Category Screen from which pre-defined categories are available:
+
+<p align="center">
+    <img src = "Assets/Categories_Screen.png" alt="Categories_Screen" width = 300 >
+</p>
+
+<p align='center'><i>Figure 7</i></p>
+
+Upon choosing a category, the term screen of the category is shown and a term can be selected from which a description of the term will be shown:
+
+<p align="center">
+    <img src = "Assets/Terms_Screen.png" alt="Terms_Screen" width = 300 >
+</p>
+
+<p align='center'><i>Figure 7</i></p>
+
+<p align="center">
+    <img src = "Assets/Description_Screen.png" alt="Description_Screen" width = 300 >
+</p>
+
+<p align='center'><i>Figure 8</i></p>
+
+Navigating from one category and/or term to another is easily possible and terms from different categories can be marked as favorites to be viewed in the favorites screen. 
+
+<p align="center">
+    <img src = "Assets/Favorites_Screen.png" alt="Favorites_Screen" width = 300 >
+</p>
+
+<p align='center'><i>Figure 8</i></p>
 
 One major change that must be made to KnowMixer, after development of the prototype, is the source of the encyclopedia data. Encyclopedia Brittanica was originally used for the prototype but some articles are not available without a subscription. Thus, a quick [search](https://en.wikipedia.org/wiki/List_of_online_encyclopedias#General_reference) of the available open source encyclopedias will show that [encyclopedia.com](https://www.encyclopedia.com/) is another viable and accredited alternative that will be used in future iterations of KnowMixer.  
 
