@@ -2,21 +2,29 @@
 <br>
 <br>
 
-<h1 align = center>KnowMixer Application Design Document</h1>
+<h1 align = center> KnowMixer Application Design Document </h1>
 
 <p style="page-break-before: always">
 
 ## Table of Contents
 
-### **[1. Introduction](#introduction)**
+### [1. Introduction](#introduction)
 
 ### **[2. Solution Approach (High Level)](#solution-approach-high-level)**
 
-### **[3. Analysis Approach](#analysis-approach)**
+### **[3. Analysis Approach](#analysis-approach)** 
 
-### **[4. Use Cases Design](#use-cases-design)**
+- **[Flutter](#flutter)**
+- **[Firebase](#firebase)**
+- **[Encyclopedia Data](#encyclopedia-data)**
+- **[Offline Storage](#offline-storage)**
 
-### **[5. Database Design](#database-design)**
+### **[4. Use Cases Design](#use-cases-design)** </h3>
+
+- **[KnowMixer Use Case Diagram](#knowmixer-use-case-diagram)**
+- **[KnowMixer Requirements](#knowmixer-requirements)**
+
+### **[5. Database Design](#database-design)** 
 
 ### **[6. UI Design](#ui-design)**
 
@@ -27,7 +35,7 @@
 ### **[9. Conclusion](#conclusion)**
 
 ### **[10. References](#references)**
-    
+
 <p style="page-break-before: always">
 
 ## Introduction
@@ -161,7 +169,7 @@ Based on the KnowMixer Use Case Diagram, there are both Functional and Non-Funct
 
 ## Database Design
 
-Due to nature of how the Firebase Firestore functions, the process of desigining, creating, and maintaining a database has been abstracted away. Now, only the data that is to be presented to the user must be established and maintained through collection and document objects available in the Firestore. This was covered in a [previous section](#firebase).
+Due to nature of how the Firebase Firestore functions, the process of designing, creating, and maintaining a database has been abstracted away. Now, only the data that is to be presented to the user must be established and maintained through collection and document objects available in the Firestore. This was covered in a [previous section](#firebase).
 
 ## UI Design
 
@@ -203,7 +211,7 @@ Currently, a prototype demonstrating Knowmixer's Category and Term functionality
 The application starts from the Category Screen from which pre-defined categories are available:
 
 <p align="center">
-    <img src = "Assets/Categories_Screen.png" alt="Categories_Screen" width = 300 >
+    <img src = "Assets/Categories_Screen.png" alt="Categories_Screen" width = 250 >
 </p>
 
 <p align='center'><i>Figure 7</i></p>
@@ -211,24 +219,24 @@ The application starts from the Category Screen from which pre-defined categorie
 Upon choosing a category, the term screen of the category is shown and a term can be selected from which a description of the term will be shown:
 
 <p align="center">
-    <img src = "Assets/Terms_Screen.png" alt="Terms_Screen" width = 300 >
-</p>
-
-<p align='center'><i>Figure 7</i></p>
-
-<p align="center">
-    <img src = "Assets/Description_Screen.png" alt="Description_Screen" width = 300 >
+    <img src = "Assets/Terms_Screen.png" alt="Terms_Screen" width = 250 >
 </p>
 
 <p align='center'><i>Figure 8</i></p>
+
+<p align="center">
+    <img src = "Assets/Description_Screen.png" alt="Description_Screen" width = 250 >
+</p>
+
+<p align='center'><i>Figure 9</i></p>
 
 Navigating from one category and/or term to another is easily possible and terms from different categories can be marked as favorites to be viewed in the favorites screen. 
 
 <p align="center">
-    <img src = "Assets/Favorites_Screen.png" alt="Favorites_Screen" width = 300 >
+    <img src = "Assets/Favorites_Screen.png" alt="Favorites_Screen" width = 250 >
 </p>
 
-<p align='center'><i>Figure 8</i></p>
+<p align='center'><i>Figure 10</i></p>
 
 One major change that must be made to KnowMixer, after development of the prototype, is the source of the encyclopedia data. Encyclopedia Brittanica was originally used for the prototype but some articles are not available without a subscription. Thus, a quick [search](https://en.wikipedia.org/wiki/List_of_online_encyclopedias#General_reference) of the available open source encyclopedias will show that [encyclopedia.com](https://www.encyclopedia.com/) is another viable and accredited alternative that will be used in future iterations of KnowMixer.  
 
